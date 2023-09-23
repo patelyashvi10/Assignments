@@ -1,0 +1,16 @@
+/* Name: Yashvi Patel
+   Student Number: 8884318 */
+
+   body {
+    font: 16px Arial, sans-serif; 
+    background-color: hsla(200, 68%, 81%, 0.8);
+    height: 100vh;
+    width: 100vw; 
+  }
+
+  h2 {
+    color: #369; 
+    font-size: 1.2rem; 
+  }
+  
+  
