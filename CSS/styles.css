@@ -12,5 +12,45 @@
     color: #369; 
     font-size: 1.2rem; 
   }
+
+  main {
+    width: 97%;
+    float: inline-start;
+    background-color: hsl(240, 100%, 90%); 
+}
+
+aside {
+    width: 97%;
+    float: inline-start;
+    background-color: hsl(120, 100%, 90%); 
+}
+
+.structural {
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 10px;
+}
+
+#paragraph1 {
+  color: rgb(255, 0, 0); 
+}
+
+#paragraph2 {
+  color: rgb(0, 0, 255); 
+}
+
+header {
+  background-color: hsl(0, 100%, 90%); 
+}
   
-  
+footer {
+  background-color: hsl(60, 100%, 90%); 
+}
+a:hover {
+  color: #f00; 
+}
+
+footer p {
+  font-size: 12px;
+}
+
