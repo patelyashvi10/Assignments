@@ -54,3 +54,95 @@ footer p {
   font-size: 12px;
 }
 
+/* Move internal styles to styles.css */
+aside ul {
+  list-style-type: square;
+  /* Add other styles as needed */
+}
+
+a:hover {
+  color: #f00;
+}
+
+/* Add styles for the new nav element */
+/* nav.structural {
+  /* Add styling for the navigation menu here */
+/* } */ s
+
+/* Descendant selector for nav li */
+nav ul {
+  list-style: none; /* Remove bullet points */
+}
+
+nav li {
+  display: inline; /* Change the display property to inline */
+}
+
+/* Descendant selector for nav a */
+nav a {
+  border: 2px solid indigo; /* Set the border properties */
+  color: indigo; /* Set the font color */
+  background-color: cornsilk; /* Set the background color */
+  text-decoration: none; /* Remove link underline */
+  padding: 5px 10px; /* Add some padding for better spacing */
+  margin: 5px; /* Add margin for spacing between menu items */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: all 0.3s; /* Add a transition for smooth hover effect */
+}
+
+/* Change styles when hovering over nav a */
+nav a:hover {
+  background-color: indigo; /* Switch the background to indigo */
+  color: cornsilk; /* Switch the font color to cornsilk */
+  border: 2px solid cornsilk; /* Switch the border color to cornsilk */
+}
+
+/* Style for the form */
+form {
+  border: 5px dashed #008000; /* Change color as needed */
+  width: 50%;
+  display: block;
+  padding: 15px; /* Add padding for better appearance */
+}
+
+/* Attribute selectors for specific input types */
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"],
+form select,
+form option {
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+/* Attribute selectors for radio and checkbox inputs */
+form input[type="radio"],
+form input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+/* Styles for specific elements */
+form select,
+form option,
+form label,
+form legend,
+form select > option,
+form select,
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+/* Styles for textarea */
+form textarea {
+  width: 50%;
+  display: block;
+}
+
+/* Styles for fieldset */
+form fieldset {
+  border: none;
+}

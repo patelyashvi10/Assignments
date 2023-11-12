@@ -1,0 +1,72 @@
+<!-- Name:Yashvi Patel  Email: Ypatel4318@conestogac.on.ca  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <title> Contact </title>
+</head>
+
+<body>
+    <header class="structural">
+        <h1 class="main-heading">Contact</h1>
+    </header>
+
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="structural">
+        <h2>Contact</h2>
+      
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required autofocus> <!-- Added autofocus -->
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <fieldset>
+            <legend>What section of PROG1245 are you in?</legend>
+            <label for="section4">
+              <input type="radio" id="section4" name="sec" value="4" required checked> Section 4 <!-- Added checked -->
+            </label>
+            <label for="section5">
+              <input type="radio" id="section5" name="sec" value="5" required> Section 5
+            </label>
+            <label for="section8">
+              <input type="radio" id="section8" name="sec" value="8" required> Section 8
+            </label>
+          </fieldset>
+      
+          <label for="help">What do you need help with?</label>
+          <select id="help" name="help" required>
+            <option value="HTML">HTML</option>
+            <option value="CSS" selected> CSS </option> <!-- Added selected -->
+            <option value="Both">Both (HTML & CSS)</option>
+          </select>
+      
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4" required></textarea>
+      
+          <label for="human">I am a human:</label>
+          <input type="checkbox" id="human" name="human" value="true" required>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </main>
+      
+
+    <footer class="structural">
+        <p>&copy; Yashvi Patel - 2023</p>
+    </footer>
+</body>
+
+</html>
