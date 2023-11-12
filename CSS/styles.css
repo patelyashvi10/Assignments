@@ -54,58 +54,53 @@ footer p {
   font-size: 12px;
 }
 
-/* Move internal styles to styles.css */
+
 aside ul {
   list-style-type: square;
-  /* Add other styles as needed */
 }
 
 a:hover {
   color: #f00;
 }
 
-/* Add styles for the new nav element */
-/* nav.structural {
-  /* Add styling for the navigation menu here */
-/* } */ s
 
-/* Descendant selector for nav li */
+
 nav ul {
-  list-style: none; /* Remove bullet points */
+  list-style: none; 
 }
 
 nav li {
-  display: inline; /* Change the display property to inline */
+  display: inline; 
 }
 
-/* Descendant selector for nav a */
+
 nav a {
-  border: 2px solid indigo; /* Set the border properties */
-  color: indigo; /* Set the font color */
-  background-color: cornsilk; /* Set the background color */
-  text-decoration: none; /* Remove link underline */
-  padding: 5px 10px; /* Add some padding for better spacing */
-  margin: 5px; /* Add margin for spacing between menu items */
-  border-radius: 5px; /* Add border radius for rounded corners */
-  transition: all 0.3s; /* Add a transition for smooth hover effect */
+  border: 2px solid indigo; 
+  color: indigo; 
+  background-color: cornsilk; 
+  text-decoration: none; 
+  padding: 5px 10px; 
+  margin: 5px; 
+  border-radius: 5px; 
+  transition: all 0.3s; 
 }
 
-/* Change styles when hovering over nav a */
+
 nav a:hover {
-  background-color: indigo; /* Switch the background to indigo */
-  color: cornsilk; /* Switch the font color to cornsilk */
-  border: 2px solid cornsilk; /* Switch the border color to cornsilk */
+  background-color: indigo; 
+  color: cornsilk; 
+  border: 2px solid cornsilk; 
 }
 
-/* Style for the form */
+
 form {
-  border: 5px dashed #008000; /* Change color as needed */
+  border: 5px dashed #008000; 
   width: 50%;
   display: block;
-  padding: 15px; /* Add padding for better appearance */
+  padding: 15px; 
 }
 
-/* Attribute selectors for specific input types */
+
 form input[type="text"],
 form input[type="email"],
 form input[type="submit"],
@@ -116,14 +111,14 @@ form option {
   height: 2em;
 }
 
-/* Attribute selectors for radio and checkbox inputs */
+
 form input[type="radio"],
 form input[type="checkbox"] {
   height: 2em;
   width: 2em;
 }
 
-/* Styles for specific elements */
+
 form select,
 form option,
 form label,
@@ -136,13 +131,14 @@ nav a {
   font-variant: small-caps;
 }
 
-/* Styles for textarea */
+
 form textarea {
   width: 50%;
   display: block;
 }
 
-/* Styles for fieldset */
+
 form fieldset {
   border: none;
 }
+
